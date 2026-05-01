@@ -1,6 +1,8 @@
-﻿{
-  "version": "v7.6.9",
-  "notice": "📢 更新公告\n- 修复 MiMo 超时\n- 提升翻译速度\n- 优化 UI",
+{
+  "version": "v7.6.8",
+  "notice_id": "v7.6.8-json-notice-001",
+  "title": "中英输入助手公告",
+  "notice": "📢 JSON公告系统已上线\n- 软件会从仓库 update.json 读取公告和版本信息\n- 菜单底部新增“更新”按钮\n- 支持 force_update 和 download_url",
   "force_update": false,
-  "download_url": ""
+  "download_url": "https://github.com/zhoufei3/Chinese-English-Input-Assistant/releases/latest"
 }
