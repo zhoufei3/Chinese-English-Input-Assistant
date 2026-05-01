@@ -1,8 +1,10 @@
 {
+  "_comment": "远程公告配置。version 控制更新，远程最新版本号，必须使用 v7.6.9 这种格式。notice 控制公告，可以使用 \\n 换行。force_update 控制是否强制更新，是否强制更新，true=必须更新，false=可跳过。download_url 控制下载链接，show_notice 控制是否显示公告，true=显示，false=不显示。",
+
   "version": "v7.6.8",
-  "notice_id": "v7.6.8-json-notice-001",
-  "title": "中英输入助手公告",
-  "notice": "📢 JSON公告系统已上线\n- 软件会从仓库 update.json 读取公告和版本信息\n- 菜单底部新增“更新”按钮\n- 支持 force_update 和 download_url",
+  "notice_title": "公告",
+  "notice": "📢 v7.6.8 更新内容\n\n- 修复 MiMo 响应慢的问题\n- 优化翻译缓存\n- 新增打开日志按钮",
   "force_update": false,
-  "download_url": "https://github.com/zhoufei3/Chinese-English-Input-Assistant/releases/latest"
+  "download_url": "https://github.com/zhoufei3/Chinese-English-Input-Assistant/releases/latest",
+  "show_notice": true
 }
